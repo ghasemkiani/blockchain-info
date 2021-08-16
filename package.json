@@ -1,0 +1,30 @@
+{
+  "name": "@ghasemkiani/blockchain-info",
+  "version": "2.0.0",
+  "description": "An API client for blockchain.info",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ghasemkiani/blockchain-info.git"
+  },
+  "keywords": [
+    "blockchain",
+    "bitcoin",
+    "blockchain.info",
+    "api"
+  ],
+  "author": "Ghasem Kiani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/ghasemkiani/blockchain-info/issues"
+  },
+  "homepage": "https://gitlab.com/ghasemkiani/blockchain-info#readme",
+  "dependencies": {
+    "@ghasemkiani/base": "github:ghasemkiani/base",
+    "isomorphic-fetch": "^3.0.0"
+  }
+}
